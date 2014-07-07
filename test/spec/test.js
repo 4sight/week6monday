@@ -86,11 +86,17 @@
     'use strict';
 
     describe('Test underscore.js functions', function () {
-        it('underscore\'s "pluck" function should return an array', function () {
-        	expect(names).to.be.a('array');
+        it('Variable "names" should have length 3', function () {
+        	names.should.have.length(3);
         });
-        it('underscore\'s "last" function should return a string', function () {
-        	expect(names).to.be.a('array');
+        it('underscore\'s "last" function should return an array', function () {
+        	expect(last).to.be.a('array');
+        });
+        it('Variable "first" should return an array', function () {
+        	expect(last).to.be.a('array');
+        });
+        it('Variable "godzilla" should not exist', function () {
+	        	expect(godzilla).to.not.exist;
         });
     });
 })();

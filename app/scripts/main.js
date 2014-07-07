@@ -80,5 +80,7 @@
 // 	console.log(blueOysterCult.name + ' was together for ' + blueOysterCult.stats.yearsTogether + ' years and released ' + blueOysterCult.stats.albums + ' albums. Some of my favorite songs by them: ' + blueOysterCult.favoriteSongs.join(', '));
 // };
 
-var names = _.pluck(stooges, 'name');
 var stooges = [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}];
+var names = _.pluck(stooges, 'name');
+var last = _.last(stooges, 'name');
+var godzilla;
