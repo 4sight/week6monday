@@ -31,5 +31,9 @@
     		tails.run();
     		expect(tails.speed).to.equal('fast');
     	});
+    	it('should have a default health of 100', function () {
+    		var knuckles = new Runner({health: 100});
+    		expect(knuckles.health).to.equal(100);
+    	})
     });
 })();
