@@ -7,8 +7,11 @@ Your unit tests should cover everything: bad arguments, no arguments, values, ty
 Make sure to read through the Chai documentation - http://chaijs.com/api/
 
 _.pluck
+
 _.last
+
 _.first
+
 _.random
 
 Also, set up a simple constructor like we did in class and run some tests on that in a different describe block.
